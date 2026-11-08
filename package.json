@@ -2,6 +2,7 @@
   "name": "big-nuxt-app",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@12.18.0",
   "engines": {
     "node": ">=24"
   },
