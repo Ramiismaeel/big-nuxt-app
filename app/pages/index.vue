@@ -16,6 +16,7 @@ const modes = [
 
 <template>
   <UContainer class="py-16 sm:py-24">
+    <RenderInfo mode="SSG" />
     <div class="text-center max-w-2xl mx-auto">
       <UBadge
         label="Nuxt 4 · Learning project"

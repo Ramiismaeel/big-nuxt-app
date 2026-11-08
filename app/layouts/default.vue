@@ -5,6 +5,7 @@ const { public: { siteName } } = useRuntimeConfig()
 
 const items: NavigationMenuItem[] = [
   { label: 'Products', to: '/products', icon: 'i-lucide-shopping-bag' },
+  { label: 'Categories', to: '/categories', icon: 'i-lucide-tags' },
   { label: 'Blog', to: '/blog', icon: 'i-lucide-newspaper' },
   { label: 'Search', to: '/search', icon: 'i-lucide-search' },
   { label: 'Explorer', to: '/explorer', icon: 'i-lucide-database' },

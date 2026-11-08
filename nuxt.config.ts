@@ -29,4 +29,7 @@ export default defineNuxtConfig({
   eslint: {
     config: { stylistic: true },
   },
+  image: {
+    domains: ['cdn.dummyjson.com'],
+  },
 })
