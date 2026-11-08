@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxt/image', '@nuxt/fonts'],
+  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/ui'],
   devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
   runtimeConfig: {
     // server only, never sent to the browser
     dummyjson: {

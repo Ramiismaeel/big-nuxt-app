@@ -1,6 +1,9 @@
 export default defineAppConfig({
   ui: {
-    defaultTheme: 'system' as 'light' | 'dark' | 'system',
+    colors: {
+      primary: 'violet',
+      neutral: 'zinc',
+    },
   },
   pagination: {
     defaultLimit: 20,
