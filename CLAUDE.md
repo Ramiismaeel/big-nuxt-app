@@ -162,7 +162,7 @@ Note: real ISR needs a host that supports it (Vercel/Netlify). On `node-server` 
 - [x] 01 Config — `nuxt.config`, runtimeConfig/.env, routeRules skeleton, app.config, CI (lint + typecheck)
 - [x] 02 Style & layout — design system, layouts, header/nav, dark mode, fonts, icons
 - [x] 03 API layer — shared types (OpenAPI if possible), Nitro BFF, DummyJSON client, error mapping, custom fetch
-- [ ] 04 Routes & rendering — pages for every mode, dynamic routes, page meta, layouts per route
+- [x] 04 Routes & rendering — pages for every mode, dynamic routes, page meta, layouts per route
 - [ ] 05 Auth & middleware — login/logout, httpOnly cookies, refresh token, route + server middleware
 - [ ] 06 State — Pinia (auth, cart, ui), `useState` vs Pinia, SSR-safe state
 - [ ] 07 Lists — search, sort, filter, pagination synced with URL, infinite scroll
