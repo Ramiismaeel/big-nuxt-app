@@ -1,7 +1,14 @@
 {
   "js/ts.experimental.useTsgo": false,
   "js/ts.tsdk.path": "node_modules\\typescript\\lib",
+  "files.eol": "\n",
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
-  "prettier.enable": false
+  "prettier.enable": false,
+  "files.associations": { "*.css": "tailwindcss" },
+  "editor.quickSuggestions": { "strings": "on" },
+  "tailwindCSS.classAttributes": ["class", "ui"],
+  "tailwindCSS.experimental.classRegex": [
+    ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ]
 }

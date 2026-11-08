@@ -18,15 +18,16 @@
   },
   "dependencies": {
     "@nuxt/eslint": "1.17.0",
-    "@nuxt/fonts": "1.2.0",
-    "@nuxt/icon": "2.6.2",
     "@nuxt/image": "2.2.1",
+    "@nuxt/ui": "^4.12.0",
     "eslint": "^10.14.0",
     "nuxt": "^4.6.4",
+    "tailwindcss": "^4.3.5",
     "vue": "^3.5.44",
     "vue-router": "^5.4.0"
   },
   "devDependencies": {
+    "@iconify-json/lucide": "^1.2.151",
     "@nuxt/test-utils": "^4.3.4",
     "@vue/test-utils": "^2.5.1",
     "happy-dom": "^21.0.4",
